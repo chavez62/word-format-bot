@@ -22,7 +22,7 @@ class TaskConfig:
 
 class TextFormatterBot:
     def __init__(self):
-        self.model_name = "gpt-4-1106-preview"
+        self.model_name = "gpt-4o"
         self.tasks: Dict[str, TaskConfig] = {
             'formal': TaskConfig(
                 name="formal",
